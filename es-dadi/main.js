@@ -4,11 +4,11 @@
 var lancioGiocatore1, lancioGiocatore2, risultato
 
 // Giocatore 1 lancia il dado generando un valore casuale da 1 a 6
-lancioGiocatore1 = Math.floor(Math.random() * 5) + 1;
+lancioGiocatore1 = Math.floor(Math.random() * 6) + 1;
 console.log(lancioGiocatore1, "Giocatore1");
 
 // Giocatore 2 lancia il dado generando un valore casuale da 1 a 6
-lancioGiocatore2 = Math.floor(Math.random() * 5) + 1;
+lancioGiocatore2 = Math.floor(Math.random() * 6) + 1;
 console.log(lancioGiocatore2, "Giocatore2");
 
 
